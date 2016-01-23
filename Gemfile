@@ -25,6 +25,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'bootstrap-sass', '~> 3.3.6'
 # Paperclip Gem
 gem "paperclip", "~> 4.3"
+# Paperclip Gem Dropbox
+gem "paperclip-dropbox", ">= 1.1.7"
+# Figaro Gem
+gem "figaro"
 
 group :production do
 	gem 'pg'
